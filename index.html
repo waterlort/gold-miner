@@ -13,19 +13,19 @@
       margin: 20px auto;
       overflow: hidden;
     }
-    #score-board {
+    #controls {
       text-align: center;
-      font-size: 24px;
-      margin-top: 10px;
+      margin: 10px 0;
     }
   </style>
 </head>
 <body>
+  <div id="controls">
+    <button id="start-btn">开始游戏</button>
+    <button id="stop-btn">关闭游戏</button>
+  </div>
   <div id="game-area">
     <canvas id="game-canvas" width="800" height="600"></canvas>
-  </div>
-  <div id="score-board">
-    分数: <span id="score">0</span>
   </div>
   <script src="game.js"></script>
 </body>
