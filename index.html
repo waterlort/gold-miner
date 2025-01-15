@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>黄金矿工小游戏</title>
+  <style>
+    #game-area {
+      position: relative;
+      width: 800px;
+      height: 600px;
+      border: 2px solid #333;
+      background: linear-gradient(to bottom, #87CEEB, #F0E68C); /* 天空到沙地渐变 */
+      margin: 20px auto;
+      overflow: hidden;
+    }
+    #score-board {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-area">
+    <canvas id="game-canvas" width="800" height="600"></canvas>
+  </div>
+  <div id="score-board">
+    分数: <span id="score">0</span>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
